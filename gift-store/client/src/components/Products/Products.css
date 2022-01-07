@@ -1,0 +1,46 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+.MainProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+
+img {
+  text-align: center;
+}
+
+
+
+.Edit-Delete {
+  width: 50px;
+  height: 30px;
+  margin-right: 8px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(93, 10, 141);
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-shadow: 6px 4px 12px 0px rgba(0,0,0,0.44); 
+  box-shadow: 6px 4px 12px 0px rgba(0,0,0,0.44);
+}
+
+.Edit-Delete:hover {
+  background-color: RoyalBlue;
+}
+
+.EditDeleteButtons {
+  padding: 10px;
+  background-color: inherit;
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+.NoProducts {
+  margin: auto;
+  text-align: center;
+}

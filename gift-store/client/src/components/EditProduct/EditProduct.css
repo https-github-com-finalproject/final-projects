@@ -1,0 +1,52 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+
+
+#GoBackButton{
+    font-size: 30px;
+    position: absolute;
+    top:10%;
+    left: 30%;
+    color: #616161;
+}
+
+.EditProduct {  
+    margin: auto; 
+    margin-top: 50px; 
+    width: 400px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .EditProductForm {
+    text-align: left;
+  }
+  
+  input[type=text], select {
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+   
+    .Submit-Cancel {  
+      display: flex;  
+      flex-direction: row;
+      justify-content:space-evenly;
+    }
+
+.btn-success {
+  padding: 10px 33px;
+  margin-top: 10px;
+}
+
+.btn-light {
+  padding: 10px 25px;
+  margin-top: 10px;
+}
